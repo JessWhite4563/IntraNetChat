@@ -7,7 +7,6 @@ package intranetchatv3.core;
 
 import intranetchatv3.display.*;
 import intranetchatv3.df.VariableStore;
-import intranetchatv3.saving.VariableSave;
 
 /**
  *
@@ -55,8 +54,8 @@ public class Main {
         splash.setVisible(false);
         splash.dispose();
     }
-    
-    public static void main(String args[]){
+
+    public static void main(String[] args){
         Main m = new Main();
         m.startSplash();
         m.variableSearch();
